@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/loginback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 300px;
+    height: 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.username,
+.password {
+    width: 300px;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 50px;
+    font-size: 16px;
+    color: rgb(216, 216, 216);
+    letter-spacing: 1.5px;
+    outline: none !important;
+}
+
+.username::placeholder,
+.password::placeholder {
+    color: rgb(204, 204, 204);
+}
+
+.login,
+.parol {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.login_btn{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    color: #0D75FF;
+    font-size: 16px;
+    font-weight: bold;
+}
+.fp{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    text-align: end;
+}
